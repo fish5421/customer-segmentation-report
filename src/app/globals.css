@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #34495e;
+    --accent-color: #3498db;
+    --text-color: #333333;
+    --background-color: #ffffff;
+    --section-bg: #f8f9fa;
+    --border-color: #e9ecef;
+}
+
+@layer components {
+    .chart-container {
+        @apply w-full my-8 text-center;
+    }
+
+    .chart-image {
+        @apply w-[90%] max-w-[900px] h-auto mx-auto block rounded shadow-md;
+    }
+
+    .chart-image.large {
+        @apply w-[90%] max-w-[1000px];
+    }
+
+    .chart-image.medium {
+        @apply w-[70%] max-w-[700px];
+    }
+
+    .chart-image.small {
+        @apply w-[50%] max-w-[500px];
+    }
+
+    .segment-container {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-8;
+    }
+
+    .segment-card {
+        @apply bg-[var(--section-bg)] p-8 rounded-lg shadow-md border-t-4 border-[var(--accent-color)];
+    }
+
+    .two-column {
+        @apply flex flex-col md:flex-row gap-10 my-6;
+    }
+
+    .two-column > div {
+        @apply flex-1 min-w-0;
+    }
+
+    .metrics-container {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-6;
+    }
+
+    .metrics-column {
+        @apply bg-[var(--section-bg)] p-6 rounded-lg shadow-md;
+    }
+
+    .timeline-container {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-6;
+    }
+
+    .timeline-column {
+        @apply bg-[var(--section-bg)] p-6 rounded-lg shadow-md;
+    }
+
+    .resources-container {
+        @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-6;
+    }
+
+    .resource-column {
+        @apply bg-[var(--section-bg)] p-6 rounded-lg shadow-md;
+    }
+
+    #executive-summary {
+        @apply bg-[var(--section-bg)] p-8 border-l-4 border-[var(--accent-color)] my-8 rounded-lg;
+    }
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    @apply text-[var(--primary-color)] mt-6 mb-3 font-semibold leading-tight;
+}
+
+h1 {
+    @apply text-4xl border-b-2 border-[var(--accent-color)] pb-3;
+}
+
+h2 {
+    @apply text-3xl border-b border-[var(--border-color)] pb-3 clear-both;
+}
+
+h3 {
+    @apply text-2xl text-[var(--secondary-color)];
+}
+
+/* Lists */
+ul, ol {
+    @apply pl-8 mb-6;
+}
+
+li {
+    @apply mb-2;
+}
+
+/* Tables */
+table {
+    @apply w-full border-collapse my-4 bg-[var(--background-color)] shadow-sm;
+}
+
+th, td {
+    @apply p-3 text-left border-b border-[var(--border-color)];
+}
+
+th {
+    @apply bg-[var(--section-bg)] text-[var(--primary-color)] font-semibold;
+}
+
+tr:hover {
+    @apply bg-[var(--section-bg)];
+}
+
+/* Links */
+a {
+    @apply text-[var(--accent-color)] no-underline transition-colors duration-200;
+}
+
+a:hover {
+    @apply text-[var(--secondary-color)] underline;
+}
+
+/* Blockquotes */
+blockquote {
+    @apply my-6 p-4 pl-6 border-l-4 border-[var(--accent-color)] bg-[var(--section-bg)] italic;
+}
+
+/* Section spacing */
+section {
+    @apply my-8;
+}
+
+/* Print styles */
+@media print {
+    body {
+        @apply p-0 text-[11pt];
+    }
+
+    h1 {
+        @apply text-[20pt];
+    }
+
+    h2 {
+        @apply text-[16pt] mt-8;
+    }
+
+    h3 {
+        @apply text-[14pt];
+    }
+
+    .segment-container {
+        @apply grid grid-cols-2 gap-4;
+    }
+
+    .two-column {
+        @apply flex gap-5;
+    }
+
+    .chart-image {
+        @apply max-w-full;
+    }
+
+    .metrics-container,
+    .timeline-container,
+    .resources-container {
+        @apply grid grid-cols-3 gap-4;
+    }
+
+    @page {
+        margin: 1.5cm;
+        size: A4;
+    }
+}
