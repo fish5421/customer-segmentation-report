@@ -13,12 +13,27 @@ export default function Home() {
 
       <section id="executive-summary">
         <h2>Executive Summary</h2>
-        <p>This enhanced report presents a comprehensive analysis of customer segmentation for your e-commerce brand specializing in leather and carbon fiber wallets. By analyzing 808 transactions from your first month of operations, we&apos;ve identified three distinct customer segments with unique behavioral patterns and demographic characteristics. Our analysis combines transactional data, real estate demographics, and customer behavior metrics to provide actionable insights for immediate implementation and long-term strategic planning.</p>
+        <p>
+          This customer segmentation report presents a comprehensive analysis of
+          Carry Proof e-commerce brand specializing in leather and carbon fiber
+          wallets. By analyzing 808 transactions from your first month of
+          operations, we&apos;ve identified three distinct customer segments
+          with unique behavioral patterns and demographic characteristics. Our
+          analysis combines transactional data, real estate demographics, and
+          customer behavior metrics to provide actionable insights for immediate
+          implementation and long-term strategic planning.
+        </p>
         <div>
           <p>Key Findings:</p>
           <ul>
-            <li>Identified three distinct customer segments with clear value propositions</li>
-            <li>Clear discount sensitivity patterns that can inform immediate pricing strategies</li>
+            <li>
+              Identified three distinct customer segments with clear value
+              propositions
+            </li>
+            <li>
+              Clear discount sensitivity patterns that can inform immediate
+              pricing strategies
+            </li>
           </ul>
         </div>
       </section>
@@ -30,8 +45,14 @@ export default function Home() {
           <ul>
             <li>Time Period: First 30 days post-launch</li>
             <li>Transaction Volume: 808 orders</li>
-            <li>Data Sources: Transaction data, real estate demographics, customer behavior metrics</li>
-            <li>Key Metrics: RFM (Recency, Frequency, Monetary), property values, discount usage</li>
+            <li>
+              Data Sources: Transaction data, real estate demographics, customer
+              behavior metrics
+            </li>
+            <li>
+              Key Metrics: RFM (Recency, Frequency, Monetary), property values,
+              discount usage
+            </li>
           </ul>
         </div>
       </section>
@@ -61,7 +82,7 @@ export default function Home() {
         <div className="segment-container">
           {/* Premium Patrons Card */}
           <div className="segment-card">
-            <h4>Premium Patrons (32% of customer base)</h4>
+            <h4>Premium Patrons (32% of customer base) - Segment #4</h4>
             <p>Key Characteristics:</p>
             <ul>
               <li>High property values</li>
@@ -99,7 +120,7 @@ export default function Home() {
 
           {/* Value-Conscious Buyers Card */}
           <div className="segment-card">
-            <h4>Value-Conscious Buyers (41% of customer base)</h4>
+            <h4>Value-Conscious Buyers (41% of customer base) - Segment #2</h4>
             <p>Key Characteristics:</p>
             <ul>
               <li>Mid-range property values</li>
@@ -137,7 +158,7 @@ export default function Home() {
 
           {/* Price-Sensitive Savers Card */}
           <div className="segment-card">
-            <h4>Price-Sensitive Savers (27% of customer base)</h4>
+            <h4>Price-Sensitive Savers (27% of customer base) - Segment #1</h4>
             <p>Key Characteristics:</p>
             <ul>
               <li>Lower property values</li>
@@ -175,22 +196,22 @@ export default function Home() {
         </div>
 
         <div className="chart-container">
-          <Image 
+          <Image
             src="/images/zestimate_net_total.png"
             alt="Distribution of House Values and Net Total Spend"
-            width={700}
-            height={400}
-            className="chart-image medium"
+            width={1000}
+            height={600}
+            className="chart-image"
           />
         </div>
 
         <div className="chart-container">
-          <Image 
+          <Image
             src="/images/distribution_of_discount_codes_by_segment.png"
             alt="Distribution of Discount Codes by Segment"
-            width={700}
-            height={400}
-            className="chart-image medium"
+            width={1000}
+            height={600}
+            className="chart-image"
           />
         </div>
 
@@ -199,49 +220,59 @@ export default function Home() {
           <div>
             <h4>Purchase Patterns</h4>
             <ul>
-              <li>Premium Patrons: Single high-value purchases</li>
-              <li>Value-Conscious: Multiple moderate purchases</li>
-              <li>Price-Sensitive: Discount-driven purchases</li>
+              <li>Premium Patrons (segment #4): Single high-value purchases</li>
+              <li>Value-Conscious (segment #2): Multiple moderate purchases</li>
+              <li>Price-Sensitive (segment #1): Discount-driven purchases</li>
             </ul>
           </div>
           <div>
             <h4>Product Preferences</h4>
             <ul>
-              <li>Premium Patrons: Carbon fiber wallets with personalization</li>
-              <li>Value-Conscious: Mix of leather and carbon fiber</li>
-              <li>Price-Sensitive: Basic leather models</li>
+              <li>
+                Premium Patrons (segment #4): Carbon fiber wallets with
+                personalization
+              </li>
+              <li>
+                Value-Conscious (segment #2): Mix of leather and carbon fiber
+              </li>
+              <li>Price-Sensitive (segment #1): Basic leather models</li>
             </ul>
           </div>
         </div>
       </section>
 
       <section>
-        <h2>4. Strategic Recommendations</h2>
-        <h3>4.1 Immediate Actions (0-30 Days)</h3>
+        <h2>4. Strategic Email Marketing Recommendations</h2>
+        <h3>4.1 Personalization-Driven Email Initiatives (0-30 Days)</h3>
         <div className="metrics-container">
           <div className="metrics-column">
-            <h4>Marketing Initiatives</h4>
-            <p>Segment-Specific Email Campaigns</p>
+            <h4>Premium Patron Personalization Campaign</h4>
+            <p>Expected Revenue Impact: +20-25%</p>
             <ul>
-              <li>Premium: Exclusive early access to new designs</li>
-              <li>Value-Conscious: Bundle offers and moderate discounts</li>
-              <li>Price-Sensitive: High-value promotional offers</li>
+              <li>Target: Zestimate $578k+ property owners (Premium Segment)</li>
+              <li>Pre-purchase: Carbon fiber + premium monogram showcase</li>
+              <li>Browse abandonment: "Design Your Legacy" follow-up</li>
+              <li>Success Metric: 45% personalization adoption in segment</li>
             </ul>
           </div>
           <div className="metrics-column">
-            <h4>Paid Advertising</h4>
+            <h4>Value-Conscious Conversion Flow</h4>
+            <p>Expected Revenue Impact: +15-18%</p>
             <ul>
-              <li>Create lookalike audiences based on segment profiles</li>
-              <li>Geographic targeting based on real estate data</li>
-              <li>Segment-specific ad creative and messaging</li>
+              <li>Target: $528k avg. property value segment</li>
+              <li>Focus: Entry-level personalization options</li>
+              <li>A/B test: Free vs. discounted personalization</li>
+              <li>Success Metric: 25% personalization uplift</li>
             </ul>
           </div>
           <div className="metrics-column">
-            <h4>Pricing Strategy</h4>
+            <h4>Cross-Segment Testing Program</h4>
+            <p>Expected Revenue Impact: +12-15%</p>
             <ul>
-              <li>Launch A/B testing of price points by segment</li>
-              <li>Implement dynamic bundle pricing</li>
-              <li>Test promotional threshold effects</li>
+              <li>Segment-specific personalization messaging</li>
+              <li>Track uplift by property value bracket</li>
+              <li>Monitor segment migration post-personalization</li>
+              <li>Success Metric: 20% segment upgrade rate</li>
             </ul>
           </div>
         </div>
@@ -249,27 +280,30 @@ export default function Home() {
         <h3>4.2 Near-Term Strategy (30-90 Days)</h3>
         <div className="metrics-container">
           <div className="metrics-column">
-            <h4>Journey Mapping</h4>
+            <h4>Purchase Pattern Analysis</h4>
+            <p>Expected Revenue Impact: +10-15%</p>
             <ul>
-              <li>Track segment-specific paths to purchase</li>
-              <li>Identify key conversion points</li>
-              <li>Monitor segment migration patterns</li>
+              <li>Track leather vs. carbon fiber buyer behaviors</li>
+              <li>Analyze personalization decision points</li>
+              <li>Success Metric: Personalization rate increase of 25%</li>
             </ul>
           </div>
           <div className="metrics-column">
-            <h4>Product Development</h4>
+            <h4>Product Enhancement</h4>
+            <p>Expected Revenue Impact: +15-20%</p>
             <ul>
-              <li>Analyze product preferences by segment</li>
-              <li>Test new personalization options</li>
-              <li>Develop segment-specific bundles</li>
+              <li>Test new personalization styles based on data</li>
+              <li>Develop complementary accessories (card holders)</li>
+              <li>Success Metric: Accessory attachment rate of 20%</li>
             </ul>
           </div>
           <div className="metrics-column">
-            <h4>Retention Programs</h4>
+            <h4>Customer Loyalty Development</h4>
+            <p>Expected Revenue Impact: +12-18%</p>
             <ul>
-              <li>Implement segment-based loyalty program</li>
-              <li>Create VIP program for Premium Patrons</li>
-              <li>Develop win-back campaigns for at-risk customers</li>
+              <li>Launch material-specific care subscription</li>
+              <li>Create referral program for existing customers</li>
+              <li>Success Metric: Referral purchase rate above 15%</li>
             </ul>
           </div>
         </div>
@@ -277,27 +311,30 @@ export default function Home() {
         <h3>4.3 Long-Term Initiatives (90+ Days)</h3>
         <div className="metrics-container">
           <div className="metrics-column">
-            <h4>Geographic Expansion</h4>
+            <h4>Product Collection Expansion</h4>
+            <p>Expected Revenue Impact: +20-25%</p>
             <ul>
-              <li>Target high-potential ZIP codes</li>
-              <li>Develop market entry prioritization</li>
-              <li>Create location-based marketing playbook</li>
+              <li>Test limited edition seasonal materials</li>
+              <li>Develop premium personalization tier</li>
+              <li>Success Metric: New variant adoption rate 30%</li>
             </ul>
           </div>
           <div className="metrics-column">
-            <h4>Product Line Extension</h4>
+            <h4>Customer Experience Enhancement</h4>
+            <p>Expected Revenue Impact: +15-20%</p>
             <ul>
-              <li>Develop segment-specific products</li>
-              <li>Test new materials and features</li>
-              <li>Expand personalization options</li>
+              <li>Launch product care video series</li>
+              <li>Develop material comparison tools</li>
+              <li>Success Metric: Pre-purchase engagement up 40%</li>
             </ul>
           </div>
           <div className="metrics-column">
-            <h4>Channel Optimization</h4>
+            <h4>Partnership Development</h4>
+            <p>Expected Revenue Impact: +18-22%</p>
             <ul>
-              <li>Evaluate new marketing channels</li>
-              <li>Test marketplace expansions</li>
-              <li>Explore retail partnerships</li>
+              <li>Corporate gifting program launch</li>
+              <li>Wedding/groomsmen package development</li>
+              <li>Success Metric: Bulk order revenue 25% of total</li>
             </ul>
           </div>
         </div>
@@ -449,7 +486,13 @@ export default function Home() {
 
       <section>
         <h2>8. Conclusion</h2>
-        <p>This enhanced analysis provides a comprehensive framework for leveraging customer segmentation to drive growth. The clear distinction between segments, combined with actionable recommendations and implementation guidance, positions your brand for successful expansion in the premium wallet market.</p>
+        <p>
+          This enhanced analysis provides a comprehensive framework for
+          leveraging customer segmentation to drive growth. The clear
+          distinction between segments, combined with actionable recommendations
+          and implementation guidance, positions your brand for successful
+          expansion in the premium wallet market.
+        </p>
       </section>
     </main>
   );
