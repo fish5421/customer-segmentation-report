@@ -312,12 +312,12 @@ export default function Home() {
                   <ul>
                     <li>Test Group A: Value Proposition</li>
                     <ul>
-                      <li>"Join the Carry Revolution"</li>
+                      <li>&quot;Join the Carry Revolution&quot;</li>
                       <li>Focus: Product innovation</li>
                     </ul>
                     <li>Test Group B: Offer-Driven</li>
                     <ul>
-                      <li>"Save 10% on Your First Order"</li>
+                      <li>&quot;Save 10% on Your First Order&quot;</li>
                       <li>Focus: Immediate value</li>
                     </ul>
                     <li>Test Variables</li>
