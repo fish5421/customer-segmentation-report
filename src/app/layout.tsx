@@ -1,12 +1,11 @@
 import './globals.css'
-import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Customer Segmentation Analysis Report',
-  description: 'Enhanced analysis of customer segments for e-commerce brand',
+export const metadata = {
+  title: 'Customer Segmentation Analysis',
+  description: 'Analysis of customer segments based on various factors',
 }
 
 export default function RootLayout({
@@ -15,8 +14,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" suppressHydrationWarning={true}>
+      <body className={inter.className} suppressHydrationWarning={true}>
+        {children}
+      </body>
     </html>
   )
 }

@@ -7,8 +7,8 @@ export default function Home() {
     <main className="max-w-7xl mx-auto px-8 py-8">
       <h1>Enhanced Customer Segmentation Analysis Report</h1>
       <div className="mb-8">
-        <p>Prepared for: [Client&apos;s Company Name]</p>
-        <p>Date: October 29, 2024</p>
+        <p>Prepared for: Carry Proof</p>
+        <p>Date: November 4, 2024</p>
       </div>
 
       <section id="executive-summary">
@@ -80,7 +80,6 @@ export default function Home() {
         <h3>3.1 Segment Overview</h3>
 
         <div className="segment-container">
-          {/* Premium Patrons Card */}
           <div className="segment-card">
             <h4>Premium Patrons (32% of customer base) - Segment #4</h4>
             <p>Key Characteristics:</p>
@@ -118,7 +117,6 @@ export default function Home() {
             </table>
           </div>
 
-          {/* Value-Conscious Buyers Card */}
           <div className="segment-card">
             <h4>Value-Conscious Buyers (41% of customer base) - Segment #2</h4>
             <p>Key Characteristics:</p>
@@ -156,7 +154,6 @@ export default function Home() {
             </table>
           </div>
 
-          {/* Price-Sensitive Savers Card */}
           <div className="segment-card">
             <h4>Price-Sensitive Savers (27% of customer base) - Segment #1</h4>
             <p>Key Characteristics:</p>
@@ -241,202 +238,230 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section className="strategy-section">
         <h2>4. Strategic Email Marketing Recommendations</h2>
-        <h3>4.1 Personalization-Driven Email Initiatives (0-30 Days)</h3>
         <div className="metrics-container">
           <div className="metrics-column">
-            <h4>Premium Patron Personalization Campaign</h4>
-            <p>Expected Revenue Impact: +20-25%</p>
-            <ul>
-              <li>Target: Zestimate $578k+ property owners (Premium Segment)</li>
-              <li>Pre-purchase: Carbon fiber + premium monogram showcase</li>
-              <li>Browse abandonment: "Design Your Legacy" follow-up</li>
-              <li>Success Metric: 45% personalization adoption in segment</li>
+            <h4>Premium Experience Flow</h4>
+            <div className="revenue-impact">
+              Expected Revenue Impact: +20-25%
+            </div>
+            <ul className="initiative-list">
+              <li>Early Access: Pre-launch carbon fiber variants</li>
+              <li>Material Education: Carbon fiber craftsmanship series</li>
+              <li>No-discount VIP benefits (premium packaging)</li>
             </ul>
+            <div className="success-metric">
+              <strong>Success Metric:</strong> 30% carbon fiber adoption rate
+            </div>
           </div>
           <div className="metrics-column">
-            <h4>Value-Conscious Conversion Flow</h4>
-            <p>Expected Revenue Impact: +15-18%</p>
-            <ul>
-              <li>Target: $528k avg. property value segment</li>
-              <li>Focus: Entry-level personalization options</li>
-              <li>A/B test: Free vs. discounted personalization</li>
-              <li>Success Metric: 25% personalization uplift</li>
+            <h4>Value Maximizer Series</h4>
+            <div className="revenue-impact">
+              Expected Revenue Impact: +15-20%
+            </div>
+            <ul className="initiative-list">
+              <li>Targeted: Mid-range property value segment</li>
+              <li>Focus: Limited-time bundle offerings</li>
+              <li>A/B test: Premium vs standard packaging</li>
             </ul>
+            <div className="success-metric">
+              <strong>Success Metric:</strong> 25% bundle adoption rate
+            </div>
           </div>
           <div className="metrics-column">
-            <h4>Cross-Segment Testing Program</h4>
-            <p>Expected Revenue Impact: +12-15%</p>
-            <ul>
-              <li>Segment-specific personalization messaging</li>
-              <li>Track uplift by property value bracket</li>
-              <li>Monitor segment migration post-personalization</li>
-              <li>Success Metric: 20% segment upgrade rate</li>
+            <h4>Price-Sensitive Engagement</h4>
+            <div className="revenue-impact">
+              Expected Revenue Impact: +12-15%
+            </div>
+            <ul className="initiative-list">
+              <li>Strategic discount timing optimization</li>
+              <li>Product education focus: Value proposition</li>
+              <li>Loyalty program early access</li>
             </ul>
-          </div>
-        </div>
-
-        <h3>4.2 Near-Term Strategy (30-90 Days)</h3>
-        <div className="metrics-container">
-          <div className="metrics-column">
-            <h4>Purchase Pattern Analysis</h4>
-            <p>Expected Revenue Impact: +10-15%</p>
-            <ul>
-              <li>Track leather vs. carbon fiber buyer behaviors</li>
-              <li>Analyze personalization decision points</li>
-              <li>Success Metric: Personalization rate increase of 25%</li>
-            </ul>
-          </div>
-          <div className="metrics-column">
-            <h4>Product Enhancement</h4>
-            <p>Expected Revenue Impact: +15-20%</p>
-            <ul>
-              <li>Test new personalization styles based on data</li>
-              <li>Develop complementary accessories (card holders)</li>
-              <li>Success Metric: Accessory attachment rate of 20%</li>
-            </ul>
-          </div>
-          <div className="metrics-column">
-            <h4>Customer Loyalty Development</h4>
-            <p>Expected Revenue Impact: +12-18%</p>
-            <ul>
-              <li>Launch material-specific care subscription</li>
-              <li>Create referral program for existing customers</li>
-              <li>Success Metric: Referral purchase rate above 15%</li>
-            </ul>
-          </div>
-        </div>
-
-        <h3>4.3 Long-Term Initiatives (90+ Days)</h3>
-        <div className="metrics-container">
-          <div className="metrics-column">
-            <h4>Product Collection Expansion</h4>
-            <p>Expected Revenue Impact: +20-25%</p>
-            <ul>
-              <li>Test limited edition seasonal materials</li>
-              <li>Develop premium personalization tier</li>
-              <li>Success Metric: New variant adoption rate 30%</li>
-            </ul>
-          </div>
-          <div className="metrics-column">
-            <h4>Customer Experience Enhancement</h4>
-            <p>Expected Revenue Impact: +15-20%</p>
-            <ul>
-              <li>Launch product care video series</li>
-              <li>Develop material comparison tools</li>
-              <li>Success Metric: Pre-purchase engagement up 40%</li>
-            </ul>
-          </div>
-          <div className="metrics-column">
-            <h4>Partnership Development</h4>
-            <p>Expected Revenue Impact: +18-22%</p>
-            <ul>
-              <li>Corporate gifting program launch</li>
-              <li>Wedding/groomsmen package development</li>
-              <li>Success Metric: Bulk order revenue 25% of total</li>
-            </ul>
+            <div className="success-metric">
+              <strong>Success Metric:</strong> 20% conversion rate increase
+            </div>
           </div>
         </div>
       </section>
 
-      <section>
+      <section className="strategy-section">
         <h2>5. Implementation Framework</h2>
-        <div className="metrics-container">
-          <div className="metrics-column">
-            <h3>5.1 Success Metrics</h3>
-            <h4>Customer Metrics</h4>
-            <ul>
-              <li>Segment conversion rates</li>
-              <li>Average order value by segment</li>
-              <li>Customer lifetime value</li>
-              <li>Segment migration rates</li>
-            </ul>
-          </div>
-          <div className="metrics-column">
-            <h4>Business Metrics</h4>
-            <ul>
-              <li>Revenue per segment</li>
-              <li>Marketing efficiency ratio</li>
-              <li>Customer acquisition cost</li>
-              <li>Return on ad spend</li>
-            </ul>
-          </div>
-          <div className="metrics-column">
-            <h4>Product Metrics</h4>
-            <ul>
-              <li>Product mix by segment</li>
-              <li>Personalization uptake</li>
-              <li>Bundle performance</li>
-              <li>Price elasticity by segment</li>
-            </ul>
+        <div className="bg-[var(--section-bg)] p-8 rounded-lg shadow-md mb-8">
+          <h3 className="mt-0">5.1 Data Collection Foundation</h3>
+          <div className="metrics-container">
+            <div className="metrics-column">
+              <h4>Email Capture Optimization</h4>
+              {/* <div className="revenue-impact">Expected Impact: +15-20%</div> */}
+              <div className="initiative-list">
+                <div className="mb-4">
+                  <strong className="text-[var(--primary-color)]">
+                    Homepage Pop-up Test
+                  </strong>
+                  <ul>
+                    <li>Timing: 5s vs. 15s vs. exit-intent</li>
+                    <li>Offer: 10% vs. Free Shipping</li>
+                    <li>Required fields: Email + ZIP code</li>
+                  </ul>
+                </div>
+                <div className="mb-4">
+                  <strong className="text-[var(--primary-color)]">
+                    Pop-up A/B Testing Program
+                  </strong>
+                  <ul>
+                    <li>Test Group A: Value Proposition</li>
+                    <ul>
+                      <li>"Join the Carry Revolution"</li>
+                      <li>Focus: Product innovation</li>
+                    </ul>
+                    <li>Test Group B: Offer-Driven</li>
+                    <ul>
+                      <li>"Save 10% on Your First Order"</li>
+                      <li>Focus: Immediate value</li>
+                    </ul>
+                    <li>Test Variables</li>
+                    <ul>
+                      <li>Timing: Entry vs. 15s vs. Exit</li>
+                      <li>Device: Mobile vs. Desktop</li>
+                      <li>Page: Home vs. Product</li>
+                    </ul>
+                  </ul>
+                </div>
+
+                <div className="success-metric">
+                  <strong>Success Metrics</strong>
+                  <ul className="mt-2 mb-0">
+                    <li>Pop-up conversion rate: Target 15%</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="metrics-column">
+              <h4>Initial Email Program</h4>
+              {/* <div className="revenue-impact">Expected Impact: +20-25%</div> */}
+              <div className="initiative-list">
+                <div className="mb-4">
+                  <strong className="text-[var(--primary-color)]">
+                    Welcome Series
+                  </strong>
+                  <ul>
+                    <li>Email 1: Brand story + Products</li>
+                    <li>Email 2: Material comparison guide</li>
+                    <li>Email 3: Customer testimonials</li>
+                  </ul>
+                </div>
+                <div className="mb-4">
+                  <strong className="text-[var(--primary-color)]">
+                    Post-Purchase Flow
+                  </strong>
+                  <ul>
+                    <li>Order confirmation with care tips</li>
+                    <li>Shipping + tracking updates</li>
+                    <li>Delivery confirmation + guide</li>
+                    <li>Review request (7 days after)</li>
+                  </ul>
+                </div>
+                <div className="success-metric">
+                  <strong>Key Performance Metrics</strong>
+                  <ul className="mt-2 mb-0">
+                    <li>Open rates: Target 25%+</li>
+                    <li>Click rates: Target 12%+</li>
+                    <li>Unsubscribe rate: Below 0.5%</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="metrics-column">
+              <h4>Data Integration Steps</h4>
+              <div className="initiative-list">
+                <div className="mb-4">
+                  <strong className="text-[var(--primary-color)]">
+                    Property Data Enrichment
+                  </strong>
+                  <ul>
+                    <li>Batch Zestimate lookups (existing 808)</li>
+                    <li>Property value segment creation</li>
+                    <li>Email list value scoring</li>
+                  </ul>
+                </div>
+                <div className="mb-4">
+                  <strong className="text-[var(--primary-color)]">
+                    Email Platform Setup
+                  </strong>
+                  <ul>
+                    <li>Property segment tags</li>
+                    <li>A/B test group assignment</li>
+                    <li>Conversion tracking setup</li>
+                  </ul>
+                </div>
+                <div className="success-metric">
+                  <strong>Integration Goals</strong>
+                  <ul className="mt-2 mb-0">
+                    <li>Property match rate: 85%+</li>
+                    <li>Segment tag accuracy: 95%+</li>
+                    <li>Test group distribution: Even split</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="timeline-container">
-          <div className="timeline-column">
-            <h3>5.2 Implementation Timeline</h3>
-            <h4>Week 1-2</h4>
-            <ul>
-              <li>Launch segment-specific email campaigns</li>
-              <li>Implement tracking mechanisms</li>
-              <li>Create segment-based ad audiences</li>
-              <li>Deploy initial A/B tests</li>
-            </ul>
-          </div>
-          <div className="timeline-column">
-            <h4>Week 3-4</h4>
-            <ul>
-              <li>Launch segment-specific promotions</li>
-              <li>Optimize product recommendations</li>
-              <li>Implement geographic targeting</li>
-              <li>Analyze initial test results</li>
-            </ul>
-          </div>
-          <div className="timeline-column">
-            <h4>Month 2-3</h4>
-            <ul>
-              <li>Develop comprehensive customer journey maps</li>
-              <li>Create segment migration tracking</li>
-              <li>Build preliminary LTV models</li>
-              <li>Plan geographic expansion</li>
-            </ul>
-          </div>
-        </div>
+        <div className="bg-[var(--section-bg)] p-8 rounded-lg shadow-md">
+          <h3 className="mt-0">5.2 30-Day Testing Plan</h3>
+          <div className="metrics-container">
+            <div className="metrics-column">
+              <h4>Week 1: Foundation</h4>
+              <div className="revenue-impact">Setup Phase</div>
+              <ul className="initiative-list">
+                <li>Configure tracking system</li>
+                <li>Deploy standard pop-up</li>
+                <li>Launch welcome series</li>
+                <li>Establish baseline metrics</li>
+              </ul>
+              <div className="success-metric">
+                <strong>Completion Criteria</strong>
+                All systems operational with 0 errors
+              </div>
+            </div>
 
-        <div className="resources-container">
-          <div className="resource-column">
-            <h3>5.3 Resource Requirements</h3>
-            <h4>Technology</h4>
-            <ul>
-              <li>Analytics tracking implementation</li>
-              <li>Email marketing platform</li>
-              <li>A/B testing tools</li>
-              <li>Customer journey tracking</li>
-            </ul>
-          </div>
-          <div className="resource-column">
-            <h4>Team</h4>
-            <ul>
-              <li>Marketing automation specialist</li>
-              <li>Data analyst</li>
-              <li>Customer service team</li>
-              <li>Product manager</li>
-            </ul>
-          </div>
-          <div className="resource-column">
-            <h4>Budget Allocation</h4>
-            <ul>
-              <li>Paid advertising: 40%</li>
-              <li>Email marketing: 20%</li>
-              <li>Content creation: 20%</li>
-              <li>Testing and optimization: 20%</li>
-            </ul>
+            <div className="metrics-column">
+              <h4>Week 2-3: Testing</h4>
+              <div className="revenue-impact">Optimization Phase</div>
+              <ul className="initiative-list">
+                <li>A/B test pop-up timing</li>
+                <li>Test offer variations</li>
+                <li>Monitor conversion rates</li>
+                <li>Analyze user behavior</li>
+              </ul>
+              <div className="success-metric">
+                <strong>Target Metrics</strong>
+                20% improvement in conversion
+              </div>
+            </div>
+
+            <div className="metrics-column">
+              <h4>Week 4: Analysis</h4>
+              <div className="revenue-impact">Review Phase</div>
+              <ul className="initiative-list">
+                <li>Compile test results</li>
+                <li>Analyze data quality</li>
+                <li>Review capture rates</li>
+                <li>Plan phase 2 rollout</li>
+              </ul>
+              <div className="success-metric">
+                <strong>Deliverable</strong>
+                Comprehensive testing report
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section>
+      {/* <section>
         <h2>6. Risk Analysis and Mitigation</h2>
         <div className="two-column">
           <div>
@@ -458,13 +483,13 @@ export default function Home() {
             </ol>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section>
-        <h2>7. Next Steps</h2>
+        <h2>6. Next Steps</h2>
         <div className="two-column">
           <div>
-            <h3>7.1 Immediate Priorities</h3>
+            <h3>6.1 Immediate Priorities</h3>
             <ol>
               <li>Implement tracking mechanisms</li>
               <li>Launch segment-specific campaigns</li>
@@ -473,7 +498,7 @@ export default function Home() {
             </ol>
           </div>
           <div>
-            <h3>7.2 Ongoing Monitoring</h3>
+            <h3>6.2 Ongoing Monitoring</h3>
             <ol>
               <li>Weekly performance reviews</li>
               <li>Monthly segment analysis</li>
@@ -484,8 +509,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <h2>8. Conclusion</h2>
+      {/* <section>
+        <h2>7. Conclusion</h2>
         <p>
           This enhanced analysis provides a comprehensive framework for
           leveraging customer segmentation to drive growth. The clear
@@ -493,7 +518,7 @@ export default function Home() {
           and implementation guidance, positions your brand for successful
           expansion in the premium wallet market.
         </p>
-      </section>
+      </section> */}
     </main>
   );
 }
